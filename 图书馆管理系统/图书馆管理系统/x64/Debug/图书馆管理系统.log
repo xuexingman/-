@@ -1,0 +1,155 @@
+﻿  book.c
+H:\图书管理系统\src\book.c(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+  borrow.c
+H:\图书管理系统\src\book.c(63,16): error C2001: 字符串字面量中的换行符
+H:\图书管理系统\src\book.c(64,5): error C2143: 语法错误: 缺少“)”(在“if”的前面)
+H:\图书管理系统\src\book.c(63,5): error C2198: “void readString(const char *,char *,int)”: 用于调用的参数太少
+H:\图书管理系统\src\book.c(69,16): error C2143: 语法错误: 缺少“)”(在“字符串”的前面)
+H:\图书管理系统\src\book.c(69,16): error C2143: 语法错误: 缺少“{”(在“字符串”的前面)
+H:\图书管理系统\src\book.c(69,16): error C2059: 语法错误:“字符串”
+H:\图书管理系统\src\book.c(69,65): error C2059: 语法错误:“)”
+H:\图书管理系统\src\book.c(70,16): error C2143: 语法错误: 缺少“)”(在“字符串”的前面)
+H:\图书管理系统\src\book.c(70,16): error C2143: 语法错误: 缺少“{”(在“字符串”的前面)
+H:\图书管理系统\src\book.c(70,16): error C2059: 语法错误:“字符串”
+H:\图书管理系统\src\book.c(70,69): error C2059: 语法错误:“)”
+H:\图书管理系统\src\book.c(71,16): error C2143: 语法错误: 缺少“)”(在“字符串”的前面)
+H:\图书管理系统\src\book.c(71,16): error C2143: 语法错误: 缺少“{”(在“字符串”的前面)
+H:\图书管理系统\src\book.c(71,16): error C2059: 语法错误:“字符串”
+H:\图书管理系统\src\book.c(71,73): error C2059: 语法错误:“)”
+H:\图书管理系统\src\book.c(72,5): error C2099: 初始值设定项不是常量
+H:\图书管理系统\src\book.c(73,5): error C2059: 语法错误:“if”
+H:\图书管理系统\src\book.c(78,27): error C2065: “isbn”: 未声明的标识符
+H:\图书管理系统\src\book.c(78,27): warning C4047: “函数”:“const char *”与“int”的间接级别不同
+H:\图书管理系统\src\book.c(78,27): warning C4024: “createBookNode”: 形参和实参 1 的类型不同
+H:\图书管理系统\src\book.c(78,33): error C2065: “name”: 未声明的标识符
+H:\图书管理系统\src\book.c(78,33): warning C4047: “函数”:“const char *”与“int”的间接级别不同
+H:\图书管理系统\src\book.c(78,33): warning C4024: “createBookNode”: 形参和实参 2 的类型不同
+H:\图书管理系统\src\book.c(78,39): error C2065: “author”: 未声明的标识符
+H:\图书管理系统\src\book.c(78,39): warning C4047: “函数”:“const char *”与“int”的间接级别不同
+H:\图书管理系统\src\book.c(78,39): warning C4024: “createBookNode”: 形参和实参 3 的类型不同
+H:\图书管理系统\src\book.c(78,47): error C2065: “category”: 未声明的标识符
+H:\图书管理系统\src\book.c(78,47): warning C4047: “函数”:“const char *”与“int”的间接级别不同
+H:\图书管理系统\src\book.c(78,47): warning C4024: “createBookNode”: 形参和实参 4 的类型不同
+H:\图书管理系统\src\book.c(78,5): error C2099: 初始值设定项不是常量
+H:\图书管理系统\src\book.c(79,5): error C2371: “appendBook”: 重定义；不同的基类型
+      H:\图书管理系统\src\book.c(26,6):
+      参见“appendBook”的声明
+  
+H:\图书管理系统\src\book.c(80,12): error C2143: 语法错误: 缺少“)”(在“字符串”的前面)
+H:\图书管理系统\src\book.c(80,12): error C2143: 语法错误: 缺少“{”(在“字符串”的前面)
+H:\图书管理系统\src\book.c(80,12): error C2059: 语法错误:“字符串”
+H:\图书管理系统\src\book.c(80,48): error C2059: 语法错误:“)”
+H:\图书管理系统\src\book.c(81,1): error C2059: 语法错误:“}”
+H:\图书管理系统\src\book.c(88,16): error C2001: 字符串字面量中的换行符
+H:\图书管理系统\src\book.c(115,16): error C2001: 字符串字面量中的换行符
+H:\图书管理系统\src\book.c(116,5): error C2146: 语法错误: 缺少“)”(在标识符“book”的前面)
+H:\图书管理系统\src\book.c(115,5): error C2198: “void readString(const char *,char *,int)”: 用于调用的参数太少
+H:\图书管理系统\src\book.c(122,12): warning C4477: “printf”: 格式字符串“%d”需要类型“int”的参数，但可变参数 3 拥有了类型“char *”
+H:\图书管理系统\src\book.c(122,12): warning C4313: "printf": 格式字符串中的 "%d" 与类型为 "char *" 的参数 3 冲突
+H:\图书管理系统\src\book.c(123,67): warning C4474: printf: 格式字符串中传递的参数太多
+      H:\图书管理系统\src\book.c(123,67):
+      占位符和其参数预计 4 可变参数，但提供的却是 5 参数
+  
+H:\图书管理系统\src\book.c(124,16): error C2001: 字符串字面量中的换行符
+H:\图书管理系统\src\book.c(125,5): error C2146: 语法错误: 缺少“)”(在标识符“readString”的前面)
+H:\图书管理系统\src\book.c(124,5): error C2198: “void readString(const char *,char *,int)”: 用于调用的参数太少
+H:\图书管理系统\src\book.c(126,16): error C2001: 字符串字面量中的换行符
+H:\图书管理系统\src\book.c(127,5): error C2146: 语法错误: 缺少“)”(在标识符“newTotal”的前面)
+H:\图书管理系统\src\book.c(126,5): error C2198: “void readString(const char *,char *,int)”: 用于调用的参数太少
+H:\图书管理系统\src\book.c(143,47): error C2146: 语法错误: 缺少“)”(在标识符“鍒嗙被”的前面)
+H:\图书管理系统\src\book.c(142,12): warning C4473: “printf”: 没有为格式字符串传递足够的参数
+      H:\图书管理系统\src\book.c(142,12):
+      占位符和其参数预计 7 可变参数，但提供的却是 3 参数
+      H:\图书管理系统\src\book.c(142,12):
+      缺失的可变参数 4 为格式字符串“%-12s”所需
+  
+H:\图书管理系统\src\book.c(143,73): error C3872: ‘U+2540’: 标识符中不允许使用此字符
+H:\图书管理系统\src\book.c(143,104): error C2001: 字符串字面量中的换行符
+H:\图书管理系统\src\book.c(156,16): error C2001: 字符串字面量中的换行符
+H:\图书管理系统\src\book.c(157,5): error C2146: 语法错误: 缺少“)”(在标识符“book”的前面)
+H:\图书管理系统\src\book.c(156,5): error C2198: “void readString(const char *,char *,int)”: 用于调用的参数太少
+H:\图书管理系统\src\book.c(163,12): warning C4477: “printf”: 格式字符串“%d”需要类型“int”的参数，但可变参数 2 拥有了类型“char *”
+H:\图书管理系统\src\book.c(163,12): warning C4313: "printf": 格式字符串中的 "%d" 与类型为 "char *" 的参数 2 冲突
+H:\图书管理系统\src\book.c(164,40): warning C4474: printf: 格式字符串中传递的参数太多
+      H:\图书管理系统\src\book.c(164,40):
+      占位符和其参数预计 2 可变参数，但提供的却是 7 参数
+  
+H:\图书管理系统\src\borrow.c(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+H:\图书管理系统\src\borrow.c(67,16): error C2001: 字符串字面量中的换行符
+H:\图书管理系统\src\borrow.c(68,5): error C2146: 语法错误: 缺少“)”(在标识符“book”的前面)
+H:\图书管理系统\src\borrow.c(67,5): error C2198: “void readString(const char *,char *,int)”: 用于调用的参数太少
+H:\图书管理系统\src\borrow.c(92,65): warning C4474: printf: 格式字符串中传递的参数太多
+      H:\图书管理系统\src\borrow.c(92,65):
+      占位符和其参数预计 0 可变参数，但提供的却是 1 参数
+  
+H:\图书管理系统\src\borrow.c(102,16): error C2001: 字符串字面量中的换行符
+H:\图书管理系统\src\borrow.c(103,5): error C2146: 语法错误: 缺少“)”(在标识符“readString”的前面)
+H:\图书管理系统\src\borrow.c(102,5): error C2198: “void readString(const char *,char *,int)”: 用于调用的参数太少
+H:\图书管理系统\src\borrow.c(126,103): error C2001: 字符串字面量中的换行符
+H:\图书管理系统\src\borrow.c(127,5): error C2146: 语法错误: 缺少“)”(在标识符“printf”的前面)
+H:\图书管理系统\src\borrow.c(131,78): error C3872: ‘U+e044’: 标识符中不允许使用此字符
+H:\图书管理系统\src\borrow.c(131,78): error C2146: 语法错误: 缺少“:”(在标识符“鏈綊杩”的前面)
+H:\图书管理系统\src\borrow.c(131,91): error C2059: 语法错误:“)”
+H:\图书管理系统\src\borrow.c(131,78): error C2065: “鏈綊杩”: 未声明的标识符
+H:\图书管理系统\src\borrow.c(131,78): warning C4047: “:”:“char [13]”与“int”的间接级别不同
+H:\图书管理系统\src\borrow.c(131,92): error C2143: 语法错误: 缺少“)”(在“;”的前面)
+H:\图书管理系统\src\borrow.c(146,67): error C3872: ‘U+e044’: 标识符中不允许使用此字符
+H:\图书管理系统\src\borrow.c(146,67): error C2146: 语法错误: 缺少“:”(在标识符“鏈綊杩”的前面)
+H:\图书管理系统\src\borrow.c(146,80): error C2059: 语法错误:“)”
+H:\图书管理系统\src\borrow.c(146,67): error C2065: “鏈綊杩”: 未声明的标识符
+H:\图书管理系统\src\borrow.c(146,67): warning C4047: “:”:“char [13]”与“int”的间接级别不同
+H:\图书管理系统\src\borrow.c(146,81): error C2143: 语法错误: 缺少“)”(在“;”的前面)
+  main.c
+H:\图书管理系统\src\main.c(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+H:\图书管理系统\src\main.c(51,26): error C2001: 字符串字面量中的换行符
+H:\图书管理系统\src\main.c(52,9): error C2143: 语法错误: 缺少“)”(在“switch”的前面)
+H:\图书管理系统\src\main.c(76,9): error C2059: 语法错误:“if”
+H:\图书管理系统\src\main.c(79,5): error C2059: 语法错误:“}”
+H:\图书管理系统\src\main.c(80,1): error C2059: 语法错误:“}”
+H:\图书管理系统\src\main.c(86,26): error C2001: 字符串字面量中的换行符
+H:\图书管理系统\src\main.c(115,26): error C2001: 字符串字面量中的换行符
+H:\图书管理系统\src\main.c(116,9): error C2143: 语法错误: 缺少“)”(在“switch”的前面)
+H:\图书管理系统\src\main.c(134,9): error C2059: 语法错误:“if”
+H:\图书管理系统\src\main.c(137,5): error C2059: 语法错误:“}”
+H:\图书管理系统\src\main.c(138,1): error C2059: 语法错误:“}”
+H:\图书管理系统\src\main.c(150,26): error C2001: 字符串字面量中的换行符
+  stats.c
+H:\图书管理系统\src\stats.c(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+H:\图书管理系统\src\stats.c(40,20): warning C4477: “printf”: 格式字符串“%s”需要类型“char *”的参数，但可变参数 1 拥有了类型“int”
+H:\图书管理系统\src\stats.c(40,20): warning C4313: "printf": 格式字符串中的 "%s" 与类型为 "int" 的参数 1 冲突
+H:\图书管理系统\src\stats.c(40,20): warning C4477: “printf”: 格式字符串“%d”需要类型“int”的参数，但可变参数 3 拥有了类型“char *”
+H:\图书管理系统\src\stats.c(40,20): warning C4313: "printf": 格式字符串中的 "%d" 与类型为 "char *" 的参数 3 冲突
+H:\图书管理系统\src\stats.c(40,100): warning C4474: printf: 格式字符串中传递的参数太多
+      H:\图书管理系统\src\stats.c(40,100):
+      占位符和其参数预计 3 可变参数，但提供的却是 4 参数
+  
+H:\图书管理系统\src\stats.c(66,55): warning C4474: printf: 格式字符串中传递的参数太多
+      H:\图书管理系统\src\stats.c(66,55):
+      占位符和其参数预计 2 可变参数，但提供的却是 4 参数
+  
+H:\图书管理系统\src\stats.c(103,41): warning C4474: printf: 格式字符串中传递的参数太多
+      H:\图书管理系统\src\stats.c(103,41):
+      占位符和其参数预计 0 可变参数，但提供的却是 1 参数
+  
+H:\图书管理系统\src\stats.c(104,41): warning C4474: printf: 格式字符串中传递的参数太多
+      H:\图书管理系统\src\stats.c(104,41):
+      占位符和其参数预计 0 可变参数，但提供的却是 1 参数
+  
+H:\图书管理系统\src\stats.c(105,41): warning C4474: printf: 格式字符串中传递的参数太多
+      H:\图书管理系统\src\stats.c(105,41):
+      占位符和其参数预计 0 可变参数，但提供的却是 1 参数
+  
+H:\图书管理系统\src\stats.c(106,41): warning C4474: printf: 格式字符串中传递的参数太多
+      H:\图书管理系统\src\stats.c(106,41):
+      占位符和其参数预计 0 可变参数，但提供的却是 1 参数
+  
+H:\图书管理系统\src\stats.c(107,41): warning C4474: printf: 格式字符串中传递的参数太多
+      H:\图书管理系统\src\stats.c(107,41):
+      占位符和其参数预计 0 可变参数，但提供的却是 1 参数
+  
+  storage.c
+  utils.c
+H:\图书管理系统\src\utils.c(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+H:\图书管理系统\src\utils.c(24,16): error C2001: 字符串字面量中的换行符
+H:\图书管理系统\src\utils.c(25,9): error C2146: 语法错误: 缺少“)”(在标识符“clearInputBuffer”的前面)
+  正在生成代码...
